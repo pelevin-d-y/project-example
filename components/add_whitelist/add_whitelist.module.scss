@@ -1,0 +1,18 @@
+.whitelistContent {
+  padding-bottom: 72px;
+}
+
+.content {
+  padding-top: 32px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(194px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.loading {
+  margin-top: 32px;
+}

@@ -1,0 +1,77 @@
+.button {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  border: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background: #3c6bf3;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &:disabled {
+    color: #8f8f8f;
+    background: #333333;
+  }
+}
+
+.small_button {
+  padding: 7px 15px;
+}
+
+.medium_button {
+  padding: 11px 19px;
+}
+
+.large_button {
+  padding: 16px 23px;
+}
+
+.accent_blue {
+  background: #3c6bf3;
+
+  &:hover {
+    background: #6389f5;
+  }
+
+  &:active {
+    background: #3761dd;
+  }
+}
+
+.outlined {
+  border: 1px solid #4a4a4a;
+  background: transparent;
+  &:hover {
+    color: #e1e1e1;
+    border: 1px solid #8f8f8f;
+  }
+
+  &:active {
+    background: #4a4a4a;
+  }
+  &:disabled {
+    border: 1px solid #4a4a4a;
+    color: #4a4a4a;
+  }
+}
+
+.cancel {
+  background: #e7267a;
+  &:hover {
+    background: #eb488f;
+  }
+
+  &:active {
+    background: #d0206d;
+  }
+}

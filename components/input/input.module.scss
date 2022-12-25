@@ -1,0 +1,87 @@
+.input_block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #e1e1e1;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input {
+  height: 50px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #4a4a4a;
+  border-radius: 8px;
+  padding: 15px 20px;
+  color: #ffffff;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  &:hover {
+    border: 1px solid #8f8f8f;
+  }
+
+  &:active {
+    border: 1px solid #3c6bf3;
+  }
+
+  &:focus-visible {
+    color: #ffffff;
+    border: 1px solid #3c6bf3;
+    outline: none;
+  }
+
+  &:disabled {
+    border: 1px solid #333333;
+  }
+
+  &:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #1c1c1c inset;
+    -webkit-text-fill-color: #ffffff;
+  }
+}
+
+.toggle_password {
+  position: absolute;
+  bottom: 15px;
+  right: 22px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid #e7267a;
+  color: #e7267a;
+
+  &:hover {
+    border: 1px solid #e7267a;
+  }
+}
+
+.error_message {
+  max-width: 100%;
+  color: #e7267a;
+  margin-top: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}

@@ -1,0 +1,33 @@
+.textarea {
+  height: 140px;
+  font-size: 14px;
+
+  resize: none;
+}
+
+.row {
+  margin-top: 24px;
+}
+
+.selectRow {
+  margin-top: 24px;
+}
+
+.name {
+  margin-top: 12px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 24px;
+  width: 100%;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.input {
+  width: 100%;
+}

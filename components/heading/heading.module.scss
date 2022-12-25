@@ -1,0 +1,35 @@
+.heading {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 78px;
+  padding-bottom: 32px;
+
+  border-bottom: 1px solid #333333;
+
+  &.withBack {
+    padding-top: 36px;
+  }
+}
+
+.backBox {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.action {
+  align-self: flex-end;
+}
