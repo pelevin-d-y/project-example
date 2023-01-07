@@ -28,8 +28,8 @@ const TermsAndRules: React.FC<TermsAndRulesProps> = ({
         someone asks for one. I took some of it from a real project I was
         involved in and rewrote it.🤗 <br />
         <br />
-        The technologies and libraries I used here: <br /> Next.js, TanStack
-        Query, Formik, React Context, React modal, typescript
+        The technologies and libraries I used here: <br /> Next.js, Formik,
+        React Context, React modal, typescript
       </p>
     </div>
   )
